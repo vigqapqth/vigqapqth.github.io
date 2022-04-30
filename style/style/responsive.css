@@ -1,0 +1,30 @@
+@media screen and (max-width:700px){
+    header .container ul{
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    }
+    
+  
+
+  
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+
+  
+}
+@media screen and(min-width:900px) {
+    .descricao{
+        width: 50%;  
+      }
+    .pod-principal{
+       image-rendering:30%;
+    }
+
+    
+    
+}

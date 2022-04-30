@@ -1,0 +1,194 @@
+:root{
+    --laranja:rgb(238, 114, 13);
+    --preto:rgba(0, 0, 0, 0.897);
+  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+/*elemento base*/
+body{
+    background:var(--preto);     
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+        
+}
+
+
+header .container{
+    padding-top: 5px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    
+}
+
+header u{
+    color: var(--laranja);
+}
+
+header .logo{
+
+    padding-bottom: 5px;
+    color:var(--laranja);
+    font-family:'Segoe UI';
+    font-size: 35px;
+
+
+    
+}
+header nav a{
+    text-decoration:none;
+    color: white;
+    margin-right: 10px;
+    
+}
+
+
+dp-menu ul{
+        
+    list-style-type: none;
+    padding: 0;
+}
+.dp-menu ul :hover{
+    color: var(--laranja);
+}
+
+.dp-menu ul {
+    padding-left: 5px;
+    background-color: var(--preto);
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+
+.dp-menu ul li a:hover {
+    color: var(--laranja);
+}
+
+/*sub menu*/
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 150px
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+
+/*podecast principal*/
+
+.pod-principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(163, 157, 148, 0.041),rgba(0, 0, 0, 0.50) 100%),url(img/podpah.png);
+    height:400px;
+    background-size:cover;
+    
+    display:flex;
+    flex-direction:column;    
+    justify-content:center;
+    align-items:flex-start;
+
+}
+
+.pod-principal .descricao{
+    text-shadow:2px;
+    
+    padding-right:5px;
+    border:none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    color:rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-bottom: 1px;
+    -webkit-text-stroke-width: 1px;
+    
+    
+}
+.titulo{
+    padding-left: 50px;
+    color:black;
+    margin-bottom: 155px;
+    font-size: 40px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-text-stroke-width: 1px;
+}
+
+.botao {
+    background-color:rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+    
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .4s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;    
+}
+
+.botao i{
+    margin-right: 5px ;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.pod-principal .container{
+    width: 70%;
+}
+
+
+.box-pod{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+
+.carrosel-podcast{
+    padding-top: 5px;
+}
+
+.contato{
+    font-size: 16px;
+    background:linear-gradient(rgba(163, 157, 148, 0.041),rgba(0, 0, 0, 0.50) 100%),url('/img/contato.jpg');
+    height:400px;
+    background-size:cover;
+    
+    display:flex;
+    flex-direction:column;    
+    justify-content:center;
+    align-items:flex-start;
+
+}
