@@ -17,6 +17,12 @@ body{
         
 }
 
+.contato_contato{
+    padding-top: 200px;
+    background:linear-gradient(rgba(163, 157, 148, 0.041),rgba(0, 0, 0, 0.50) 100%),url(img/contato.jpg);
+}
+
+
 
 header .container{
     padding-top: 5px;
